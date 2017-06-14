@@ -1,12 +1,11 @@
 ﻿# Easy-Admin 通用后台信息管理系统 #
 
-[Easy-Admin](https://github.com/happen-zhang/easy-admin)是一个通用的后台信息管理系统。
+Import easy-admin
 
 ## 系统说明 ##
 
 Easy-Admin就如其名，它能够为你快速搭建一个方便的后台信息管理系统，并且提供简洁易用的管理界面。大部分CMS系统往往功能都是比较庞大繁杂的，不管从学习使用或者是进行二次开发都是成本比较高的。Easy-Admin不是一个CMS，它仅仅帮你创建一个方便可用的后台信息管理，并集成一些常用的操作。简而言之，Easy-Admin能够帮你轻松搞定信息的CURD、权限管理（多管理员）和数据文件管理。手头有企业站小伙伴们可以试试看，能帮到你就是这个项目的价值所在。
 
-> 查看截图：[点这](http://happen-zhang.github.io/2014/05/15/easy-admin-intro/)
 
 ## 安装 ##
 
@@ -17,13 +16,13 @@ Easy-Admin就如其名，它能够为你快速搭建一个方便的后台信息�
 ### 克隆项目 ###
 
 ```
-git clone https://github.com/happen-zhang/easy-admin.git
+git clone https://github.com/lewisice/platform_demo.git
 ```
 
 ### 访问安装文件 ###
 
 ```
-http://domain/easy-admin/install.php
+http://domain/platform_demo/install.php
 ```
 
 ## 文件结构 ##
@@ -367,27 +366,7 @@ update：对提交的表单数据处理后更新到数据库
 * UploadFile.class.php：文件上传类 __有改动__
 * Category.class.php：无限分级类
 
-## 补充说明 ##
 
-1. 本系统的**页面**来源于 @leohdr ，在此感谢 @leohdr 兄的分享。
-2. 本系统的代码都是我一个人所写，我十分愿意分享给大家。由于个人精力有限，系统可能还存在尚未发现的bug，如果你在使用系统的过程发现bug，可以issuse给我，谢谢。
-
-## License ##
-
-(The MIT License)
-
-Copyright (c) 2014 happen-zhang <zhanghaipeng404@gmail.com>
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
